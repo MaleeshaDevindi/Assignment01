@@ -32,11 +32,4 @@ hr{
     margin-left: 2%;
     overflow: auto;
 }
-button {
-    margin:  5px 10px;
-  }
 
-.btn-secondary {
-    background-color: transparent !important;
-    border: none;
-}
