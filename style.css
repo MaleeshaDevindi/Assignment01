@@ -1,0 +1,34 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+hr{
+    border: 2px solid black;
+}
+
+.container .theme{
+    margin-top: 50px;
+}
+
+.container .row{
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 5px;
+    height: 60px;
+}
+
+#editor {
+    width: 96%;
+    height: 400px;
+    padding: 10px;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-top: 30px;
+    resize: none;
+    font-size: 18px;
+    margin-left: 2%;
+    overflow: auto;
+}
