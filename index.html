@@ -22,7 +22,14 @@
     </div>
     <div class="container mt-4">
         <div class="row bg-dark">
-          
+          <div class="col-md-12">
+            <div class="btn-group" role="group" aria-label="Text Editing Tools">
+              
+              <button type="button" class="btn btn-secondary" onclick="colorPickeropen()" title="Font Color"><img src="Resources/font-color.png" width="25px"></button>
+                <input type="color" id="fontColorPicker" style="position: absolute; top: 100%; left: 0; opacity: 0;" oninput="changeColor(event)">
+              
+            </div>
+          </div>
         </div>
     <div class="row mt-2" style="text-align: left;">
         <div class="col-md-12">
