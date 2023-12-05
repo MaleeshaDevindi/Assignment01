@@ -22,7 +22,21 @@
     </div>
     <div class="container mt-4">
         <div class="row bg-dark">
-          
+            <div class="col-md-12">
+                <div class="btn-group" role="group" aria-label="Text Editing Tools">
+                  <button type="button" class="btn btn-secondary" onclick="bold()" title="Bold"><img src="Resources/bold-xxl.png" width="23px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="underline()" title="Underline"><img src="Resources/format_underline_white_192x192.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="italic()" title="Italic"><img src="Resources/italic-xxl.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="colorPickeropen()" title="Font Color"><img src="Resources/font-color.png" width="25px"></button>
+                  <input type="color" id="fontColorPicker" style="position: absolute; top: 100%; left: 0; opacity: 0;" oninput="changeColor(event)">
+                  <button type="button" class="btn btn-secondary" onclick="left()" title="Left-Align"><img src="Resources/left.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="center()" title="Center"><img src="Resources/center.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="right()" title="Right-Align"><img src="Resources/right.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="justify()" title="Justify"><img src="Resources/justify.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="undo()" title="Undo"><img src="Resources/undo-4-32.png" width="22px"></button>
+                  <button type="button" class="btn btn-secondary" onclick="redo()" title="Redo"><img src="Resources/action-redo-32.png" width="22px"></button>
+                </div>
+            </div>  
         </div>
     <div class="row mt-2" style="text-align: left;">
         <div class="col-md-12">
