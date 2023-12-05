@@ -33,6 +33,13 @@ hr{
     overflow: auto;
 }
 
+#fontColorPicker {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    opacity: 0;
+}
+
 button {
     margin:  5px 10px;
   }
@@ -41,4 +48,4 @@ button {
 .btn-secondary {
     background-color: transparent !important;
     border: none;
-}
+
