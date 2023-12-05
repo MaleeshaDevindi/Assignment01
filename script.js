@@ -1,4 +1,3 @@
-
 function bold(){
     document.execCommand('bold', false, null);
 }
@@ -36,5 +35,13 @@ function right(){
 
 function justify(){
     document.execCommand('justifyfull', false, null);
+}
+
+function undo(){
+    document.execCommand('undo', false, null);
+}
+
+function redo(){
+    document.execCommand('redo', false, null);
 }
 
